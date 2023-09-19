@@ -5,7 +5,7 @@ import { Product } from "@/models/Product";
 import NewProducts from "@/components/NewProducts";
 import PhoneCallMessage from "@/components/PhoneCallMessage";
 
-export default function HomePage({ featuredProduct, newProducts }) {
+export default function Home({ featuredProduct, newProducts }) {
   return (
     <div>
       <Header />
