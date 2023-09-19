@@ -1,7 +1,7 @@
 import Header from "@/components/header";
 import router from "next/router";
 
-export default function categories() {
+export default function Categories() {
   function goBack() {
     router.push("/");
   }
