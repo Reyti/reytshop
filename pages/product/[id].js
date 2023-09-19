@@ -29,7 +29,7 @@ const Price = styled.span`
   font-size: 1.4rem;
 `;
 
-export default function ProductPage({ product }) {
+export default function Product({ product }) {
   const { addProduct } = useContext(CartContext);
   return (
     <>
