@@ -1,7 +1,7 @@
 import Header from "@/components/header";
 import router from "next/router";
 
-export default function account() {
+export default function Account() {
   function goBack() {
     router.push("/");
   }
